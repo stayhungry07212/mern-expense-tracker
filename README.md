@@ -19,6 +19,11 @@ An expense tracking application with data visualization - developed using React,
    - To install dependencies, run ```  npm install  ``` or ``` yarn ```
    - To run the application for development, run ```  npm run development  ``` or ``` yarn development ```
 4. Open [localhost:3000](http://localhost:3000/) in the browser
+####  package.json
+- For Linux and Mac,  ```  "start": "NODE_ENV=production node ./dist/server.generated.js"  ```
+- For Windows,  ```  "start": "SET NODE_ENV=production node ./dist/server.generated.js"  ```
+
+running in the same command shell. You mentioned set NODE_ENV did not work, but wasn't clear how/when you executed it.
 ----
 ### More applications built using this stack
 
